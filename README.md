@@ -12,20 +12,20 @@ Berikut adalah langkah-langkah untuk menambahkan komponen ke `home.page.html` da
     Salin kode HTML dari komponen yang dipilih. Contoh yang saya ambil yaitu `ion-card`:
     ```html
     <ion-card>
-  <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
-  <ion-card-header>
-    <ion-card-title>Card Title</ion-card-title>
-    <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
-  </ion-card-header>
-
-  <ion-card-content>
-    Here's a small text description for the card content. Nothing more, nothing less.
-  </ion-card-content>
-</ion-card>
+    <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+    <ion-card-header>
+      <ion-card-title>Card Title</ion-card-title>
+      <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      Here's a small text description for the card content. Nothing more, nothing less.
+    </ion-card-content>
+    </ion-card>
     ```
 
 4. **Buka `home.page.html`**:
-    Buka file `home.page.html`.
+    Buka file `home.page.html` pada folder `src\app\home\home.page.html`.
 
 5. **Tempel Kode Komponen**:
     Tempel kode komponen yang telah disalin ke dalam file `home.page.html` dan lakukan beberapa penyesuaian.
@@ -67,5 +67,5 @@ Berikut adalah langkah-langkah untuk menambahkan komponen ke `home.page.html` da
     Jalankan aplikasi Ionic dengan perintah `ionic s` untuk melihat komponen yang telah ditambahkan.
 
 # Hasil
-![Screenshot](assets/img/image.png)
+![Screenshot](src/assets/img/image.png)
 
